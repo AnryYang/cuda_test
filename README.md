@@ -1,2 +1,3 @@
-# cuda_test
-some simple example of cuda
+- nvcc -x cu hello.c
+- nvcc hello.cu
+- nvprof ./a.out
